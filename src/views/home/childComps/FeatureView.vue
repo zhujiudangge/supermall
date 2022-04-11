@@ -1,5 +1,9 @@
 <template>
-  <div class="FeatureView"></div>
+  <div class="feature">
+    <a href="">
+      <img src="~assets/img/home/recommend_bg.jpg" alt="" />
+    </a>
+  </div>
 </template>
 
 <script>
@@ -14,4 +18,8 @@ export default {
   methods: {}
 }
 </script>
-<style scoped></style>
+<style scoped>
+.feature img {
+  width: 100%;
+}
+</style>
